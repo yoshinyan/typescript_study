@@ -1,0 +1,18 @@
+#### Usage
+
+```
+npm init
+npm install --save typescript
+npx tsc --init
+npm install --save-dev @types/node
+
+touch sample.ts
+// edit sample.ts
+
+// トランスパイル
+npx tsc
+
+// 実行
+node sample.js
+
+```

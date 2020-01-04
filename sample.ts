@@ -4,7 +4,7 @@ let b:number = 1;
 
 let c:string = 'foo';
 
-function Hoge (a: boolean, b: number): boolean {
+function Foo (a: boolean, b: number): boolean {
     return a;
 }
 
@@ -12,7 +12,6 @@ function Hoge (a: boolean, b: number): boolean {
 let hairetu: number[] = [1, 2, 3];
 
 // Object
-
 interface Foo {
     a: string,
     b: number | null
